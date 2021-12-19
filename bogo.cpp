@@ -44,7 +44,7 @@ void printArray(int a[], int n)
 }
 int main()
 {
-    int a[] = { 2,1,4,3,6,5 }; //isi dan ukuran array bebas
+    int a[] = { 1,3,2 }; //isi dan ukuran array bebas
     int n = sizeof a / sizeof a[0];
     int total;
     bogosort(a, n);
