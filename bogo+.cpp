@@ -80,9 +80,8 @@ int main()
 	}while(i<n);
 	getch();
 	cout << "Luas semua bangun : ";
-	for(int j=0;j<n;j++){
-		cout<<arr[j]<<" ";
-	}
+		printArray(arr,n);
+
 	cout <<endl;
 	getch();
 	 bogosort(arr,n);
