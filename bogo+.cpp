@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 #include <iostream>
+#include <conio.h>
 using namespace std;
  
 // Mengecek urutan data
@@ -50,7 +51,6 @@ int main()
 	cout<<"Masukkan jumlah bangun : ";cin>>n;
 	
 	do{
-	cout<<n<<" ";
 	cout<<"Bangun ke "<<i<<endl;
 	cout<<"Pilih bangun"<<endl;
 	cout<<"1. Persegi"<<endl;
@@ -78,11 +78,13 @@ int main()
 		break;	}
 		i++;
 	}while(i<n);
+	getch();
 	cout << "Luas semua bangun : ";
 	for(int j=0;j<n;j++){
 		cout<<arr[j]<<" ";
 	}
 	cout <<endl;
+	getch();
 	 bogosort(arr,n);
 	 
 	 cout<<"Data terurut dari terkecil : ";
